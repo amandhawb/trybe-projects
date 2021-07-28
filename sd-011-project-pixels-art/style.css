@@ -1,0 +1,34 @@
+#color1 {
+  background-color: black;
+}
+
+#color2 {
+  background-color: #dea54b;
+}
+
+#color3 {
+  background-color: #596f62;
+}
+
+#color4 {
+  background-color: #873d48;
+}
+
+.color {
+  border: solid black 1px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.pixel {
+  display: inline-block;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+.line {
+  display: block;
+}

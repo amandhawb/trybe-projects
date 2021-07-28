@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  color: rgb(13, 31, 45);
+  line-height: 30px;
+  font-family: Courier, monospace;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  left: 400px;
+}
+
+#minha_foto {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid;
+  height: 500px;
+}
+
+.list {
+  line-height: 50px;
+  color: rgb(13, 31, 45);
+}
+
+.container {
+  float: right;
+}
+
+.lado-direito {
+  width: calc(50% - 20px);
+  float: left;
+  box-shadow: inset 5px 0 5px -5px rgb(222, 165, 75);
+  padding-left: 20px;
+  font-style: italic;
+  color: rgb(222, 165, 75);
+}
+
+.lado-esquerdo {
+  width: 50%;
+  float: left;
+}

@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  border-radius: 8px;
+  padding: 5px;
+  width: 150px;
+}
+
+.video {
+  width: 500px;
+
+}
+
+.left-side, .righ-side {
+  margin: 30px 90px;
+}
+
+.sugestion-list {
+  max-width: 300px;
+}
+
+.suggestion-item {
+  background-color: rgb(203, 201, 201);
+  border-radius: 8px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.videoDetails {
+  display: flex;
+  justify-content: center;
+  margin: 5px 80px;
+  padding: 5px;
+}
+
+.p1, .p2 {
+  margin: 10px 50px;
+}
